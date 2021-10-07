@@ -1,0 +1,43 @@
+{
+  "name": "hello-world",
+  "displayName": "HelloWorld 示例插件",
+  "description": "HelloWorld 示例插件用于演示如何创建一个极简插件",
+  "version": "1.0.0",
+  "license": "MIT",
+  "publisher": "demo",
+  "engines": {
+    "sscms": "^7.0.12"
+  },
+  "categories": [
+    "Other"
+  ],
+  "keywords": [
+    "示例"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/siteserver/Demo.HelloWorld"
+  },
+  "icon": "/ss-admin/hello-world/logo.png",
+  "main": "Demo.HelloWorld.dll",
+  "applyToSites": true,
+  "extensions": {
+    "permissions": {
+      "site_hello_world": {
+        "text": "Hello World",
+        "type": [ "web", "wx" ]
+      }
+    },
+    "menus": {
+      "site_hello_world": {
+        "text": "Hello World",
+        "iconClass": "ion-star",
+        "link": "/ss-admin/hello-world/index.html",
+        "type": [ "web", "wx" ],
+        "permissions": [
+          "site_hello_world"
+        ]
+      }
+    }
+  }
+}

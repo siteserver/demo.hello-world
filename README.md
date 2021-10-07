@@ -1,0 +1,1 @@
+HelloWorld 示例插件用于演示如何创建一个极简插件，请查看文档： [开发第一个插件](https://sscms.com/docs/v7/plugin/your-first-plugin.html)
