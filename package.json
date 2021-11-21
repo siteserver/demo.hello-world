@@ -6,7 +6,7 @@
   "license": "MIT",
   "publisher": "demo",
   "engines": {
-    "sscms": "^7.0.12"
+    "sscms": "^7.1.0"
   },
   "categories": [
     "Other"
